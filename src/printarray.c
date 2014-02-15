@@ -7,9 +7,10 @@ int main()
 {
     int d;
 
-    printf("%d", TOTAL_ELEMENTS);
+    printf("Size of array %d\n", TOTAL_ELEMENTS);
 
     for(d=-1;d <= (TOTAL_ELEMENTS-2);d++){
+        printf("value of %d\n",d);
         printf("%d\n",array[d+1]);
     }
         
