@@ -10,7 +10,8 @@ void OS_Windows_print()
         printf("Windows - Microsoft\n");
 
 }
-void OS_HP-UX_print()
+// this is the wrong one variable name cannot have - in them
+void OS_HP_UX_print()
 {
         printf("HP-UX - Hewlett Packard\n");
 }
@@ -29,7 +30,7 @@ int main()
                         OS_Windows_print();
                         break;
                 case 3:
-                        OS_HP-UX_print();
+                        OS_HP_UX_print();
                         break;
                 default:
                         printf("Hmm! only 1-3 :-)\n");
