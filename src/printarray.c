@@ -19,7 +19,7 @@ int main()
         printf("false d is greater than TOTAL_ELEMENTS\n");
     }
 
-    for(d=-1;d <= (TOTAL_ELEMENTS-2);d++){
+    for(d=-1;d <= (signed)(TOTAL_ELEMENTS-2);d++){
         printf("value of %d\n",d);
         printf("%d\n",array[d+1]);
     }
