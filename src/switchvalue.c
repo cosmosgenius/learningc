@@ -10,7 +10,7 @@ int main()
 		case '2':
 			printf("TWO\n");
 			break;
-		defalut:
+		default:
 			printf("NONE\n");
 	}
 	return 0;
