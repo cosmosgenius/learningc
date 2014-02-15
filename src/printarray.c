@@ -12,8 +12,8 @@ int main()
     
     printf("value of d is %d\n", d);
     printf("value of TOTAL_ELEMENTS is %d\n", TOTAL_ELEMENTS);
-
-    if(d <= TOTAL_ELEMENTS){
+    int f = TOTAL_ELEMENTS;
+    if(d <= f){
         printf("true d is less than/equal TOTAL_ELEMENTS\n");    
     }else{
         printf("false d is greater than TOTAL_ELEMENTS\n");
